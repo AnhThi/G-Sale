@@ -1,0 +1,44 @@
+D:\Studying\C #\G-Sale App\G-Sale App\bin\Debug\G-Sale App.exe.config
+D:\Studying\C #\G-Sale App\G-Sale App\bin\Debug\G-Sale App.exe
+D:\Studying\C #\G-Sale App\G-Sale App\bin\Debug\G-Sale App.pdb
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G-Sale App.csprojResolveAssemblyReference.cache
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_main.resources
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.Properties.Resources.resources
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G-Sale App.csproj.GenerateResource.Cache
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G-Sale App.exe
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G-Sale App.pdb
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_dangky.resources
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_dangnhap.resources
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_vegsale.resources
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_banquyen.resources
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G-Sale App.exe.licenses
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\bin\Debug\G-Sale App.exe.config
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\obj\Debug\G-Sale App.exe
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\obj\Debug\G-Sale App.pdb
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\bin\Debug\G-Sale App.exe
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\bin\Debug\G-Sale App.pdb
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\obj\Debug\G-Sale App.csprojResolveAssemblyReference.cache
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_banquyen.resources
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_dangky.resources
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_dangnhap.resources
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_main.resources
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_vegsale.resources
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.Properties.Resources.resources
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\obj\Debug\G-Sale App.csproj.GenerateResource.Cache
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\obj\Debug\G-Sale App.exe.licenses
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_nhanvien.resources
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_danhmuc.resources
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_hanghoa.resources
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_nhacungcap.resources
+D:\Studying\C #\G-Sale App\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_saoluu.resources
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_danhmuc.resources
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_hanghoa.resources
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_nhacungcap.resources
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_nhanvien.resources
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_saoluu.resources
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_chinhsuaquantrivien.resources
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_phuchoi.resources
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_guimail.resources
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.frm_caidat.resources
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.report_hanghoa.resources
+D:\Studying\C #\G-Sale App\G-Sale App\obj\Debug\G_Sale_App.report_hoadon.resources

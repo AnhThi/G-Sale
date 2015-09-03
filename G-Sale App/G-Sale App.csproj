@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6DD3734D-C7DC-4BB9-938B-5E43F5C3AB2C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>G_Sale_App</RootNamespace>
+    <AssemblyName>G-Sale App</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v14.1.Core, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v14.1, Version=14.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common.cs" />
+    <Compile Include="DataSet_HoaDon.cs">
+      <DependentUpon>DataSet_HoaDon.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet_HoaDon.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_HoaDon.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frm_banquyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_banquyen.Designer.cs">
+      <DependentUpon>frm_banquyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_caidat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_caidat.Designer.cs">
+      <DependentUpon>frm_caidat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_chinhsuaquantrivien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_chinhsuaquantrivien.Designer.cs">
+      <DependentUpon>frm_chinhsuaquantrivien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_dangky.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_dangky.Designer.cs">
+      <DependentUpon>frm_dangky.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_dangnhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_dangnhap.Designer.cs">
+      <DependentUpon>frm_dangnhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_danhmuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_danhmuc.Designer.cs">
+      <DependentUpon>frm_danhmuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_guimail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_guimail.Designer.cs">
+      <DependentUpon>frm_guimail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_hanghoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_hanghoa.Designer.cs">
+      <DependentUpon>frm_hanghoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_main.Designer.cs">
+      <DependentUpon>frm_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_nhacungcap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_nhacungcap.Designer.cs">
+      <DependentUpon>frm_nhacungcap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_nhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_nhanvien.Designer.cs">
+      <DependentUpon>frm_nhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_phuchoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_phuchoi.Designer.cs">
+      <DependentUpon>frm_phuchoi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_saoluu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_saoluu.Designer.cs">
+      <DependentUpon>frm_saoluu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_vegsale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_vegsale.Designer.cs">
+      <DependentUpon>frm_vegsale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GSale_AppDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GSale_AppDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GSale_AppDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GSale_AppDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GSale_AppDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GSale_AppDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GSale_AppDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GSale_AppDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="report_hanghoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report_hanghoa.Designer.cs">
+      <DependentUpon>report_hanghoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report_hoadon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report_hoadon.Designer.cs">
+      <DependentUpon>report_hoadon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rpt_hanghoa.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_hanghoa.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SQL.cs" />
+    <EmbeddedResource Include="frm_banquyen.resx">
+      <DependentUpon>frm_banquyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_caidat.resx">
+      <DependentUpon>frm_caidat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_chinhsuaquantrivien.resx">
+      <DependentUpon>frm_chinhsuaquantrivien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_dangky.resx">
+      <DependentUpon>frm_dangky.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_dangnhap.resx">
+      <DependentUpon>frm_dangnhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_danhmuc.resx">
+      <DependentUpon>frm_danhmuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_guimail.resx">
+      <DependentUpon>frm_guimail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_hanghoa.resx">
+      <DependentUpon>frm_hanghoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_main.resx">
+      <DependentUpon>frm_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_nhacungcap.resx">
+      <DependentUpon>frm_nhacungcap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_nhanvien.resx">
+      <DependentUpon>frm_nhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_phuchoi.resx">
+      <DependentUpon>frm_phuchoi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_saoluu.resx">
+      <DependentUpon>frm_saoluu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_vegsale.resx">
+      <DependentUpon>frm_vegsale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="report_hanghoa.resx">
+      <DependentUpon>report_hanghoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report_hoadon.resx">
+      <DependentUpon>report_hoadon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpt_hanghoa.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_hanghoa.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="DataSet_HoaDon.xsc">
+      <DependentUpon>DataSet_HoaDon.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_HoaDon.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_HoaDon.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet_HoaDon.xss">
+      <DependentUpon>DataSet_HoaDon.xsd</DependentUpon>
+    </None>
+    <None Include="GSale_AppDataSet.xsc">
+      <DependentUpon>GSale_AppDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GSale_AppDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GSale_AppDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GSale_AppDataSet.xss">
+      <DependentUpon>GSale_AppDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GSale_AppDataSet1.xsc">
+      <DependentUpon>GSale_AppDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="GSale_AppDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GSale_AppDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GSale_AppDataSet1.xss">
+      <DependentUpon>GSale_AppDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="GSale_AppDataSet2.xsc">
+      <DependentUpon>GSale_AppDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="GSale_AppDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GSale_AppDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GSale_AppDataSet2.xss">
+      <DependentUpon>GSale_AppDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="GSale_AppDataSet3.xsc">
+      <DependentUpon>GSale_AppDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="GSale_AppDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GSale_AppDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GSale_AppDataSet3.xss">
+      <DependentUpon>GSale_AppDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
